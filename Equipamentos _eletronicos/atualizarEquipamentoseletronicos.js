@@ -1,4 +1,5 @@
 const {equipamentoseletronicos} = require("./equipamentoseletronicos")
+var validator = require('validator')
 
 function atualizarEquipamentos(id, novoNome , novoModelo , novoNumeroSerie , novaDataCompra , novoVencimentoGarantia , novaLocalizacao , novoStatuss , NovoAlocadoPara){
     try {
